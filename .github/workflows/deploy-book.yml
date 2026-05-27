@@ -34,6 +34,8 @@ jobs:
         run: uv run python scripts/generate_toc.py
 
       - name: Build site
+        env:
+          BASE_URL: /quant-resources
         run: uv run jupyter-book build --site --html --ci
 
       - name: Upload Pages artifact

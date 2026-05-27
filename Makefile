@@ -7,7 +7,7 @@ toc: polish
 	uv run python scripts/generate_toc.py
 
 build: toc
-	uv run jupyter-book build --site --html
+	BASE_URL=/quant-resources uv run jupyter-book build --site --html
 
 serve: toc
 	uv run jupyter-book start
