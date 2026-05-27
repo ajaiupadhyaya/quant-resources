@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+python -m nltk.downloader vader_lexicon punkt punkt_tab
+python -m spacy download en_core_web_sm 2>/dev/null || true

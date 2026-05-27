@@ -1,0 +1,41 @@
+# Jupyter Book 2 / MyST project config
+# https://mystmd.org/guide/quickstart
+
+version: 1
+
+project:
+  id: quant-resources
+  title: Quant Resources
+  description: Quant Guild lecture notebooks — study library
+  authors:
+    - name: Ajai Upadhyaya
+  github: https://github.com/ajaiupadhyaya/quant-resources
+  license: CC-BY-4.0
+  exclude:
+    - "**/.ipynb_checkpoints/**"
+    - "**/node_modules/**"
+    - _build/**
+    - .venv/**
+  jupyter:
+    binder:
+      repo: ajaiupadhyaya/quant-resources
+      ref: main
+      url: https://mybinder.org
+  settings:
+    output_matplotlib_strings: remove
+
+extends:
+  - toc.yml
+
+site:
+  template: book-theme
+  title: Quant Resources
+  options:
+    logo_text: Quant Resources
+    # Project Pages: https://ajaiupadhyaya.github.io/quant-resources/
+    base_url: /quant-resources
+  nav:
+    - title: GitHub
+      url: https://github.com/ajaiupadhyaya/quant-resources
+    - title: Quant Guild
+      url: https://quantguild.com

@@ -1,2 +1,12 @@
 .DS_Store
 .ipynb_checkpoints/
+.venv/
+__pycache__/
+*.pyc
+_build/
+.myst/
+node_modules/
+# requirements.txt is committed for Binder; regenerate with: make export-reqs
+
+# MyST build outputs
+_build
