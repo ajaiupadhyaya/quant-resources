@@ -3,175 +3,175 @@ version: 1
 project:
   toc:
     - file: intro.md
-    - title: 2025 Video Lectures
+    - title: 2025 Lectures
       children:
-        - file: 2025 Video Lectures/1. Inverse Transform Method for Generating Random Variables/Inverse Transform Method.ipynb
-          title: Inverse Transform Method for Generating Random Variables
-        - file: 2025 Video Lectures/2. Control Variates for Variance Reduction/Control Variates for Variance Reduction.ipynb
-          title: Control Variates for Variance Reduction
-        - file: 2025 Video Lectures/3. How to Make & Lose Money Trading/Problems with Statistics in Trading.ipynb
-          title: "How to Make & Lose Money Trading"
-        - file: 2025 Video Lectures/4. Analyzing Trading Strategy Performance Over Time/When to Stop Trading a Profitable Strategy.ipynb
-          title: Analyzing Trading Strategy Performance Over Time
-        - file: 2025 Video Lectures/6. How to Trade with the Black-Scholes Model/Black-ScholesTrading.ipynb
-          title: How to Trade with the Black-Scholes Model
-        - file: 2025 Video Lectures/7. Martingale Volatility Trading/Martingale Volatility Trading.ipynb
-          title: Martingale Volatility Trading
-        - file: 2025 Video Lectures/9. Delta Hedging and Black-Scholes Prices/Delta Hedging Trading Strategy.ipynb
-          title: Delta Hedging and Black-Scholes Prices
-        - file: 2025 Video Lectures/11. Managing Option Portfolios with Black-Scholes Greeks/Managing Option Portfolios.ipynb
-          title: Managing Option Portfolios with Black-Scholes Greeks
-        - file: 2025 Video Lectures/12. Equity Trading and Tariffs/Equity Trading and Tariffs.ipynb
-          title: Equity Trading and Tariffs
-        - file: 2025 Video Lectures/13. Can AI Learn Black-Scholes/Can AI Learn Black-Scholes.ipynb
-          title: Can AI Learn Black-Scholes
-        - file: 2025 Video Lectures/14. Quant Investing for Beginners/Quant Investing Strategies for Beginners.ipynb
-          title: Quant Investing for Beginners
-        - file: 2025 Video Lectures/18. Why Quant Traders Care About Pricing/pricing.ipynb
-          title: Why Quant Traders Care About Pricing
-        - file: 2025 Video Lectures/19. Monte Carlo Simulation and Black-Scholes for Pricing Options/montecarlo_blackshcoles.ipynb
-          title: Monte Carlo Simulation and Black-Scholes for Pricing Options
-        - file: 2025 Video Lectures/20. Why Portfolio Optimization Doesn't Work/portfolio_optimization.ipynb
-          title: "Why Portfolio Optimization Doesn't Work"
-        - file: 2025 Video Lectures/22. How to Trade/how_to_trade.ipynb
-          title: How to Trade
-        - file: 2025 Video Lectures/25. How to Simulate Fractional Brownian Motion (fbM) via Davies-Harte/fbm.ipynb
-          title: How to Simulate Fractional Brownian Motion (fbM) via Davies-Harte
-        - file: 2025 Video Lectures/26. Is Quant Trading Gambling - Roulette, Poker, and Trading/is_quant_trading_gambling.ipynb
-          title: Is Quant Trading Gambling - Roulette, Poker, and Trading
-        - file: 2025 Video Lectures/28. Gambler's Ruin Problem in Quant Trading/gamblers_ruin_in_quant_trading.ipynb
-          title: "Gambler's Ruin Problem in Quant Trading"
-        - file: 2025 Video Lectures/29. Itô's Lemma Clearly and Visually Explained/itos_lemma.ipynb
-          title: "Itô's Lemma Clearly and Visually Explained"
-        - file: 2025 Video Lectures/30. Trading with the Black-Scholes Implied Volatility Surface/the_implied_volatility_surface.ipynb
-          title: Trading with the Black-Scholes Implied Volatility Surface
-        - file: 2025 Video Lectures/31. Itô Integration Clearly and Visually Explained/ito_integration.ipynb
-          title: Itô Integration Clearly and Visually Explained
-        - file: 2025 Video Lectures/32. How to Price Exotic Options/how_trading_desks_price_exotics.ipynb
-          title: How to Price Exotic Options
-        - file: 2025 Video Lectures/33. Why Monte Carlo Simulation Works/why_monte_carlo_simulation_works.ipynb
-          title: Why Monte Carlo Simulation Works
-        - file: 2025 Video Lectures/34. How to Trade with an Edge/how_to_trade_with_an_edge.ipynb
-          title: How to Trade with an Edge
-        - file: 2025 Video Lectures/35. What Does AI Actually Learn/what_does_ai_actually_learn.ipynb
-          title: What Does AI Actually Learn
-        - file: 2025 Video Lectures/36. How to Trade with the Kelly Criterion/how_to_trade_with_the_kelly_criterion.ipynb
-          title: How to Trade with the Kelly Criterion
-        - file: 2025 Video Lectures/37. Stochastic Differential Equations for Quant Finance/solving_stochastic_differential_equations.ipynb
-          title: Stochastic Differential Equations for Quant Finance
-        - file: 2025 Video Lectures/38. Finite Differences Option Pricing for Quant Finance/finite_differences_option_pricing.ipynb
-          title: Finite Differences Option Pricing for Quant Finance
-        - file: 2025 Video Lectures/39. Heston Stochastic Volatility Model and Fast Fourier Transforms/heston_fft.ipynb
-          title: Heston Stochastic Volatility Model and Fast Fourier Transforms
-        - file: 2025 Video Lectures/40. Quant Trader on Retail vs Institutional Trading/quant_explains_retail_institutional_trading.ipynb
-          title: Quant Trader on Retail vs Institutional Trading
-        - file: 2025 Video Lectures/42. Quant on Trading and Investing/quant_on_trading_investing_market.ipynb
-          title: Quant on Trading and Investing
-        - file: 2025 Video Lectures/43. How to Trade Implied Volatility Crush/how_to_trade_volatility_crush_option_strategy.ipynb
-          title: How to Trade Implied Volatility Crush
-        - file: 2025 Video Lectures/44. Time Series Analysis for Quant Finance/time_series_analysis_for_quant_finance.ipynb
-          title: Time Series Analysis for Quant Finance
-        - file: 2025 Video Lectures/46. Is Trading Luck or Skill Quant Debunks Trading Gurus with Math/is_trading_luck_or_skill.ipynb
-          title: Is Trading Luck or Skill Quant Debunks Trading Gurus with Math
-        - file: 2025 Video Lectures/47. Master Volatility with ARCH & GARCH Models/arch_garch.ipynb
-          title: "Master Volatility with ARCH & GARCH Models"
-        - file: 2025 Video Lectures/48. Why Trading Metrics are Misleading (Unless This is True)/trading_performance.ipynb
-          title: Why Trading Metrics are Misleading (Unless This is True)
-        - file: 2025 Video Lectures/49. Markov Chains for Quant Finance/markov_chains.ipynb
-          title: Markov Chains for Quant Finance
-        - file: 2025 Video Lectures/50. Why Poker Pros Make the Best Traders (It's NOT Luck)/poker_trading.ipynb
-          title: "Why Poker Pros Make the Best Traders (It's NOT Luck)"
-        - file: 2025 Video Lectures/51. Hidden Markov Models for Quant Finance/hidden_markov_models.ipynb
-          title: Hidden Markov Models for Quant Finance
-        - file: 2025 Video Lectures/52. Quant Proves Trading Cant Be Taught (But You CAN Learn This)/proof.ipynb
-          title: Quant Proves Trading Cant Be Taught (But You CAN Learn This)
-        - file: 2025 Video Lectures/54. Quant vs Discretionary Trading/quant_disc.ipynb
-          title: Quant vs Discretionary Trading
-        - file: 2025 Video Lectures/56. Quant Busts 3 Trading Myths with Math/myth_buster.ipynb
-          title: Quant Busts 3 Trading Myths with Math
-        - file: 2025 Video Lectures/57. Banks are Just Casinos (Quant Explains Why)/banks_are_casinos.ipynb
-          title: Banks are Just Casinos (Quant Explains Why)
-        - file: 2025 Video Lectures/58. Why Quant Models Break/why_models_break.ipynb
-          title: Why Quant Models Break
-        - file: 2025 Video Lectures/59. Brownian Motion for Quant Finance/brownian_motion.ipynb
-          title: Brownian Motion for Quant Finance
-        - file: 2025 Video Lectures/60. Is Trading Gambling - Quant Proves It's Not With Math/is_trading_gambling.ipynb
-          title: "Is Trading Gambling - Quant Proves It's Not With Math"
-        - file: 2025 Video Lectures/61. Central Limit Theorem for Quant Finance/clt.ipynb
-          title: Central Limit Theorem for Quant Finance
-        - file: 2025 Video Lectures/63. Neural Networks for Quant Finance/nn_quant.ipynb
-          title: Neural Networks for Quant Finance
-        - file: 2025 Video Lectures/65. Natural Language Processing for Quant Finance/nlp.ipynb
-          title: Natural Language Processing for Quant Finance
-        - file: 2025 Video Lectures/67. How Physics Accidentally Proved the Black-Scholes Model/fk_bs.ipynb
-          title: How Physics Accidentally Proved the Black-Scholes Model
-        - file: 2025 Video Lectures/69. Quant Explains Algorithmic Market-Making/htmam.ipynb
-          title: Quant Explains Algorithmic Market-Making
-        - file: 2025 Video Lectures/71. Markov Property for Quant Finance/mp.ipynb
-          title: Markov Property for Quant Finance
-        - file: 2025 Video Lectures/73. How to Price Options with Monte Carlo Simulation/htpowmc.ipynb
-          title: How to Price Options with Monte Carlo Simulation
-        - file: 2025 Video Lectures/75. Quant Explains Backtesting with Poker/bilp.ipynb
-          title: Quant Explains Backtesting with Poker
-        - file: 2025 Video Lectures/77. Profitable vs Tradable Why Most Strategies Fail Live/pt_wmsfl.ipynb
-          title: Profitable vs Tradable Why Most Strategies Fail Live
-        - file: 2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/alpaca.ipynb
+        - file: _publish/2025 Video Lectures/1. Inverse Transform Method for Generating Random Variables/Inverse Transform Method.ipynb
+          title: 1. Inverse Transform Method for Generating Random Variables
+        - file: _publish/2025 Video Lectures/2. Control Variates for Variance Reduction/Control Variates for Variance Reduction.ipynb
+          title: 2. Control Variates for Variance Reduction
+        - file: _publish/2025 Video Lectures/3. How to Make & Lose Money Trading/Problems with Statistics in Trading.ipynb
+          title: "3. How to Make & Lose Money Trading"
+        - file: _publish/2025 Video Lectures/4. Analyzing Trading Strategy Performance Over Time/When to Stop Trading a Profitable Strategy.ipynb
+          title: 4. Analyzing Trading Strategy Performance Over Time
+        - file: _publish/2025 Video Lectures/6. How to Trade with the Black-Scholes Model/Black-ScholesTrading.ipynb
+          title: 6. How to Trade with the Black-Scholes Model
+        - file: _publish/2025 Video Lectures/7. Martingale Volatility Trading/Martingale Volatility Trading.ipynb
+          title: 7. Martingale Volatility Trading
+        - file: _publish/2025 Video Lectures/9. Delta Hedging and Black-Scholes Prices/Delta Hedging Trading Strategy.ipynb
+          title: 9. Delta Hedging and Black-Scholes Prices
+        - file: _publish/2025 Video Lectures/11. Managing Option Portfolios with Black-Scholes Greeks/Managing Option Portfolios.ipynb
+          title: 11. Managing Option Portfolios with Black-Scholes Greeks
+        - file: _publish/2025 Video Lectures/12. Equity Trading and Tariffs/Equity Trading and Tariffs.ipynb
+          title: 12. Equity Trading and Tariffs
+        - file: _publish/2025 Video Lectures/13. Can AI Learn Black-Scholes/Can AI Learn Black-Scholes.ipynb
+          title: 13. Can AI Learn Black-Scholes
+        - file: _publish/2025 Video Lectures/14. Quant Investing for Beginners/Quant Investing Strategies for Beginners.ipynb
+          title: 14. Quant Investing for Beginners
+        - file: _publish/2025 Video Lectures/18. Why Quant Traders Care About Pricing/pricing.ipynb
+          title: 18. Why Quant Traders Care About Pricing
+        - file: _publish/2025 Video Lectures/19. Monte Carlo Simulation and Black-Scholes for Pricing Options/montecarlo_blackshcoles.ipynb
+          title: 19. Monte Carlo Simulation and Black-Scholes for Pricing Options
+        - file: _publish/2025 Video Lectures/20. Why Portfolio Optimization Doesn't Work/portfolio_optimization.ipynb
+          title: "20. Why Portfolio Optimization Doesn't Work"
+        - file: _publish/2025 Video Lectures/22. How to Trade/how_to_trade.ipynb
+          title: 22. How to Trade
+        - file: _publish/2025 Video Lectures/25. How to Simulate Fractional Brownian Motion (fbM) via Davies-Harte/fbm.ipynb
+          title: 25. How to Simulate Fractional Brownian Motion (fbM) via Davies-Harte
+        - file: _publish/2025 Video Lectures/26. Is Quant Trading Gambling - Roulette, Poker, and Trading/is_quant_trading_gambling.ipynb
+          title: 26. Is Quant Trading Gambling - Roulette, Poker, and Trading
+        - file: _publish/2025 Video Lectures/28. Gambler's Ruin Problem in Quant Trading/gamblers_ruin_in_quant_trading.ipynb
+          title: "28. Gambler's Ruin Problem in Quant Trading"
+        - file: _publish/2025 Video Lectures/29. Itô's Lemma Clearly and Visually Explained/itos_lemma.ipynb
+          title: "29. Itô's Lemma Clearly and Visually Explained"
+        - file: _publish/2025 Video Lectures/30. Trading with the Black-Scholes Implied Volatility Surface/the_implied_volatility_surface.ipynb
+          title: 30. Trading with the Black-Scholes Implied Volatility Surface
+        - file: _publish/2025 Video Lectures/31. Itô Integration Clearly and Visually Explained/ito_integration.ipynb
+          title: 31. Itô Integration Clearly and Visually Explained
+        - file: _publish/2025 Video Lectures/32. How to Price Exotic Options/how_trading_desks_price_exotics.ipynb
+          title: 32. How to Price Exotic Options
+        - file: _publish/2025 Video Lectures/33. Why Monte Carlo Simulation Works/why_monte_carlo_simulation_works.ipynb
+          title: 33. Why Monte Carlo Simulation Works
+        - file: _publish/2025 Video Lectures/34. How to Trade with an Edge/how_to_trade_with_an_edge.ipynb
+          title: 34. How to Trade with an Edge
+        - file: _publish/2025 Video Lectures/35. What Does AI Actually Learn/what_does_ai_actually_learn.ipynb
+          title: 35. What Does AI Actually Learn
+        - file: _publish/2025 Video Lectures/36. How to Trade with the Kelly Criterion/how_to_trade_with_the_kelly_criterion.ipynb
+          title: 36. How to Trade with the Kelly Criterion
+        - file: _publish/2025 Video Lectures/37. Stochastic Differential Equations for Quant Finance/solving_stochastic_differential_equations.ipynb
+          title: 37. Stochastic Differential Equations for Quant Finance
+        - file: _publish/2025 Video Lectures/38. Finite Differences Option Pricing for Quant Finance/finite_differences_option_pricing.ipynb
+          title: 38. Finite Differences Option Pricing for Quant Finance
+        - file: _publish/2025 Video Lectures/39. Heston Stochastic Volatility Model and Fast Fourier Transforms/heston_fft.ipynb
+          title: 39. Heston Stochastic Volatility Model and Fast Fourier Transforms
+        - file: _publish/2025 Video Lectures/40. Quant Trader on Retail vs Institutional Trading/quant_explains_retail_institutional_trading.ipynb
+          title: 40. Quant Trader on Retail vs Institutional Trading
+        - file: _publish/2025 Video Lectures/42. Quant on Trading and Investing/quant_on_trading_investing_market.ipynb
+          title: 42. Quant on Trading and Investing
+        - file: _publish/2025 Video Lectures/43. How to Trade Implied Volatility Crush/how_to_trade_volatility_crush_option_strategy.ipynb
+          title: 43. How to Trade Implied Volatility Crush
+        - file: _publish/2025 Video Lectures/44. Time Series Analysis for Quant Finance/time_series_analysis_for_quant_finance.ipynb
+          title: 44. Time Series Analysis for Quant Finance
+        - file: _publish/2025 Video Lectures/46. Is Trading Luck or Skill Quant Debunks Trading Gurus with Math/is_trading_luck_or_skill.ipynb
+          title: 46. Is Trading Luck or Skill Quant Debunks Trading Gurus with Math
+        - file: _publish/2025 Video Lectures/47. Master Volatility with ARCH & GARCH Models/arch_garch.ipynb
+          title: "47. Master Volatility with ARCH & GARCH Models"
+        - file: _publish/2025 Video Lectures/48. Why Trading Metrics are Misleading (Unless This is True)/trading_performance.ipynb
+          title: 48. Why Trading Metrics are Misleading (Unless This is True)
+        - file: _publish/2025 Video Lectures/49. Markov Chains for Quant Finance/markov_chains.ipynb
+          title: 49. Markov Chains for Quant Finance
+        - file: _publish/2025 Video Lectures/50. Why Poker Pros Make the Best Traders (It's NOT Luck)/poker_trading.ipynb
+          title: "50. Why Poker Pros Make the Best Traders (It's NOT Luck)"
+        - file: _publish/2025 Video Lectures/51. Hidden Markov Models for Quant Finance/hidden_markov_models.ipynb
+          title: 51. Hidden Markov Models for Quant Finance
+        - file: _publish/2025 Video Lectures/52. Quant Proves Trading Cant Be Taught (But You CAN Learn This)/proof.ipynb
+          title: 52. Quant Proves Trading Cant Be Taught (But You CAN Learn This)
+        - file: _publish/2025 Video Lectures/54. Quant vs Discretionary Trading/quant_disc.ipynb
+          title: 54. Quant vs Discretionary Trading
+        - file: _publish/2025 Video Lectures/56. Quant Busts 3 Trading Myths with Math/myth_buster.ipynb
+          title: 56. Quant Busts 3 Trading Myths with Math
+        - file: _publish/2025 Video Lectures/57. Banks are Just Casinos (Quant Explains Why)/banks_are_casinos.ipynb
+          title: 57. Banks are Just Casinos (Quant Explains Why)
+        - file: _publish/2025 Video Lectures/58. Why Quant Models Break/why_models_break.ipynb
+          title: 58. Why Quant Models Break
+        - file: _publish/2025 Video Lectures/59. Brownian Motion for Quant Finance/brownian_motion.ipynb
+          title: 59. Brownian Motion for Quant Finance
+        - file: _publish/2025 Video Lectures/60. Is Trading Gambling - Quant Proves It's Not With Math/is_trading_gambling.ipynb
+          title: "60. Is Trading Gambling - Quant Proves It's Not With Math"
+        - file: _publish/2025 Video Lectures/61. Central Limit Theorem for Quant Finance/clt.ipynb
+          title: 61. Central Limit Theorem for Quant Finance
+        - file: _publish/2025 Video Lectures/63. Neural Networks for Quant Finance/nn_quant.ipynb
+          title: 63. Neural Networks for Quant Finance
+        - file: _publish/2025 Video Lectures/65. Natural Language Processing for Quant Finance/nlp.ipynb
+          title: 65. Natural Language Processing for Quant Finance
+        - file: _publish/2025 Video Lectures/67. How Physics Accidentally Proved the Black-Scholes Model/fk_bs.ipynb
+          title: 67. How Physics Accidentally Proved the Black-Scholes Model
+        - file: _publish/2025 Video Lectures/69. Quant Explains Algorithmic Market-Making/htmam.ipynb
+          title: 69. Quant Explains Algorithmic Market-Making
+        - file: _publish/2025 Video Lectures/71. Markov Property for Quant Finance/mp.ipynb
+          title: 71. Markov Property for Quant Finance
+        - file: _publish/2025 Video Lectures/73. How to Price Options with Monte Carlo Simulation/htpowmc.ipynb
+          title: 73. How to Price Options with Monte Carlo Simulation
+        - file: _publish/2025 Video Lectures/75. Quant Explains Backtesting with Poker/bilp.ipynb
+          title: 75. Quant Explains Backtesting with Poker
+        - file: _publish/2025 Video Lectures/77. Profitable vs Tradable Why Most Strategies Fail Live/pt_wmsfl.ipynb
+          title: 77. Profitable vs Tradable Why Most Strategies Fail Live
+        - file: _publish/2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/alpaca.ipynb
           title: AI_Trading_Bot-main — Alpaca
-        - file: 2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/checklist.ipynb
+        - file: _publish/2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/checklist.ipynb
           title: AI_Trading_Bot-main — Checklist
-        - file: 2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/openai.ipynb
+        - file: _publish/2025 Video Lectures/15. How to Build an AI Trading Bot in Python/AI_Trading_Bot-main/AI_Trading_Bot-main/openai.ipynb
           title: AI_Trading_Bot-main — Openai
-        - file: 2025 Video Lectures/21. Expected Stock Returns Don't Exist/ExpectedReturnsDontExist-main/expected_returns_dont_exist.ipynb
+        - file: _publish/2025 Video Lectures/21. Expected Stock Returns Don't Exist/ExpectedReturnsDontExist-main/expected_returns_dont_exist.ipynb
           title: ExpectedReturnsDontExist-main
-        - file: 2025 Video Lectures/23. How to Trade Option Implied Volatility/HowToTradeOptionImpliedVolatility-main/How to Trade Option Implied Volatility.ipynb
+        - file: _publish/2025 Video Lectures/23. How to Trade Option Implied Volatility/HowToTradeOptionImpliedVolatility-main/How to Trade Option Implied Volatility.ipynb
           title: HowToTradeOptionImpliedVolatility-main
-        - file: 2025 Video Lectures/17. Analyzing Stock Returns with Principal Component Analysis in Python/PCA-Stock-Returns-main/PCA-Stock-Returns-main/pca_stock_returns_analysis.ipynb
+        - file: _publish/2025 Video Lectures/17. Analyzing Stock Returns with Principal Component Analysis in Python/PCA-Stock-Returns-main/PCA-Stock-Returns-main/pca_stock_returns_analysis.ipynb
           title: PCA-Stock-Returns-main
-        - file: 2025 Video Lectures/16. Information and Stock Price Prediction/Thinking-About-Predictive-Modeling-main/Thinking-About-Predictive-Modeling-main/neural_network_basics.ipynb
+        - file: _publish/2025 Video Lectures/16. Information and Stock Price Prediction/Thinking-About-Predictive-Modeling-main/Thinking-About-Predictive-Modeling-main/neural_network_basics.ipynb
           title: Thinking-About-Predictive-Modeling-main
-        - file: 2025 Video Lectures/24. Trading with Violated Model Assumptions/TradingwithViolatedModelAssumptions-main/Trading_with_Violated_Model_Assumptions.ipynb
+        - file: _publish/2025 Video Lectures/24. Trading with Violated Model Assumptions/TradingwithViolatedModelAssumptions-main/Trading_with_Violated_Model_Assumptions.ipynb
           title: TradingwithViolatedModelAssumptions-main
-    - title: 2026 Video Lectures
+    - title: 2026 Lectures
       children:
-        - file: 2026 Video Lectures/78. Trader Skill or Market Luck Quant Explains Alpha in 3 Minutes/capm.ipynb
-          title: Trader Skill or Market Luck Quant Explains Alpha in 3 Minutes
-        - file: 2026 Video Lectures/80. The 5 Papers That Built Modern Quant Finance/t5_qfp.ipynb
-          title: The 5 Papers That Built Modern Quant Finance
-        - file: 2026 Video Lectures/81. Why Most Traders Lose Ergodicity for Quant Trading/e_ft.ipynb
-          title: Why Most Traders Lose Ergodicity for Quant Trading
-        - file: 2026 Video Lectures/82. Poisson Processes for Quant Finance/ppfqf.ipynb
-          title: Poisson Processes for Quant Finance
-        - file: 2026 Video Lectures/83. Quant Explains Risk-Neutral Option Pricing/rnop.ipynb
-          title: Quant Explains Risk-Neutral Option Pricing
-        - file: 2026 Video Lectures/85. Quant Derives Volterra Process Discretization and Simulation/volterra.ipynb
-          title: Quant Derives Volterra Process Discretization and Simulation
-        - file: 2026 Video Lectures/87. How to Quant Trade in 3 Minutes/wva.ipynb
-          title: How to Quant Trade in 3 Minutes
-        - file: 2026 Video Lectures/88. How a Quant Manages a Portfolio/ff.ipynb
-          title: How a Quant Manages a Portfolio
-        - file: 2026 Video Lectures/89. Black-Scholes Implied Volatility in 3 Minutes/bsiv.ipynb
-          title: Black-Scholes Implied Volatility in 3 Minutes
-        - file: 2026 Video Lectures/92. Kalman Filter for Quant Finance/kffqf.ipynb
-          title: Kalman Filter for Quant Finance
-        - file: 2026 Video Lectures/93. Non-Stationarity and Why Market Timing Fails/wmtf.ipynb
-          title: Non-Stationarity and Why Market Timing Fails
-        - file: 2026 Video Lectures/94. Hawkes Processes for Quant Finance/hpqf.ipynb
-          title: Hawkes Processes for Quant Finance
-        - file: 2026 Video Lectures/95. Trading Mean Reversion with Kalman Filters/ktsmr.ipynb
-          title: Trading Mean Reversion with Kalman Filters
-        - file: 2026 Video Lectures/96. I Bet You've Never Found Alpha (and I Can Prove It)/wnpt.ipynb
-          title: "I Bet You've Never Found Alpha (and I Can Prove It)"
-        - file: 2026 Video Lectures/97. 3 Backtesting Pitfalls That Ruin Your Strategy/qebp.ipynb
-          title: 3 Backtesting Pitfalls That Ruin Your Strategy
-        - file: 2026 Video Lectures/100. Black-Litterman vs. Mean-Variance Portfolio Optimization in Python/blmpfm.ipynb
-          title: Black-Litterman vs. Mean-Variance Portfolio Optimization in Python
-        - file: 2026 Video Lectures/101. Stop Using the Sharpe Ratio Until You Watch This/qas3m.ipynb
-          title: Stop Using the Sharpe Ratio Until You Watch This
-        - file: 2026 Video Lectures/103. Quant Finance in 3 Minutes/qfi3m.ipynb
-          title: Quant Finance in 3 Minutes
-        - file: 2026 Video Lectures/106. How to Trade the Covered Call/httcc.ipynb
-          title: How to Trade the Covered Call
-        - file: 2026 Video Lectures/107. How to Trade Options with the Black-Scholes Model/htobs.ipynb
-          title: How to Trade Options with the Black-Scholes Model
-        - file: 2026 Video Lectures/113. How to Trade the Cash Secured Puts/httcc.ipynb
-          title: How to Trade the Cash Secured Puts
+        - file: _publish/2026 Video Lectures/78. Trader Skill or Market Luck Quant Explains Alpha in 3 Minutes/capm.ipynb
+          title: 78. Trader Skill or Market Luck Quant Explains Alpha in 3 Minutes
+        - file: _publish/2026 Video Lectures/80. The 5 Papers That Built Modern Quant Finance/t5_qfp.ipynb
+          title: 80. The 5 Papers That Built Modern Quant Finance
+        - file: _publish/2026 Video Lectures/81. Why Most Traders Lose Ergodicity for Quant Trading/e_ft.ipynb
+          title: 81. Why Most Traders Lose Ergodicity for Quant Trading
+        - file: _publish/2026 Video Lectures/82. Poisson Processes for Quant Finance/ppfqf.ipynb
+          title: 82. Poisson Processes for Quant Finance
+        - file: _publish/2026 Video Lectures/83. Quant Explains Risk-Neutral Option Pricing/rnop.ipynb
+          title: 83. Quant Explains Risk-Neutral Option Pricing
+        - file: _publish/2026 Video Lectures/85. Quant Derives Volterra Process Discretization and Simulation/volterra.ipynb
+          title: 85. Quant Derives Volterra Process Discretization and Simulation
+        - file: _publish/2026 Video Lectures/87. How to Quant Trade in 3 Minutes/wva.ipynb
+          title: 87. How to Quant Trade in 3 Minutes
+        - file: _publish/2026 Video Lectures/88. How a Quant Manages a Portfolio/ff.ipynb
+          title: 88. How a Quant Manages a Portfolio
+        - file: _publish/2026 Video Lectures/89. Black-Scholes Implied Volatility in 3 Minutes/bsiv.ipynb
+          title: 89. Black-Scholes Implied Volatility in 3 Minutes
+        - file: _publish/2026 Video Lectures/92. Kalman Filter for Quant Finance/kffqf.ipynb
+          title: 92. Kalman Filter for Quant Finance
+        - file: _publish/2026 Video Lectures/93. Non-Stationarity and Why Market Timing Fails/wmtf.ipynb
+          title: 93. Non-Stationarity and Why Market Timing Fails
+        - file: _publish/2026 Video Lectures/94. Hawkes Processes for Quant Finance/hpqf.ipynb
+          title: 94. Hawkes Processes for Quant Finance
+        - file: _publish/2026 Video Lectures/95. Trading Mean Reversion with Kalman Filters/ktsmr.ipynb
+          title: 95. Trading Mean Reversion with Kalman Filters
+        - file: _publish/2026 Video Lectures/96. I Bet You've Never Found Alpha (and I Can Prove It)/wnpt.ipynb
+          title: "96. I Bet You've Never Found Alpha (and I Can Prove It)"
+        - file: _publish/2026 Video Lectures/97. 3 Backtesting Pitfalls That Ruin Your Strategy/qebp.ipynb
+          title: 97. 3 Backtesting Pitfalls That Ruin Your Strategy
+        - file: _publish/2026 Video Lectures/100. Black-Litterman vs. Mean-Variance Portfolio Optimization in Python/blmpfm.ipynb
+          title: 100. Black-Litterman vs. Mean-Variance Portfolio Optimization in Python
+        - file: _publish/2026 Video Lectures/101. Stop Using the Sharpe Ratio Until You Watch This/qas3m.ipynb
+          title: 101. Stop Using the Sharpe Ratio Until You Watch This
+        - file: _publish/2026 Video Lectures/103. Quant Finance in 3 Minutes/qfi3m.ipynb
+          title: 103. Quant Finance in 3 Minutes
+        - file: _publish/2026 Video Lectures/106. How to Trade the Covered Call/httcc.ipynb
+          title: 106. How to Trade the Covered Call
+        - file: _publish/2026 Video Lectures/107. How to Trade Options with the Black-Scholes Model/htobs.ipynb
+          title: 107. How to Trade Options with the Black-Scholes Model
+        - file: _publish/2026 Video Lectures/113. How to Trade the Cash Secured Puts/httcc.ipynb
+          title: 113. How to Trade the Cash Secured Puts

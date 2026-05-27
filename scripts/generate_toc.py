@@ -8,7 +8,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "toc.yml"
+# Polished copies used for the public site (see scripts/polish_notebooks.py)
+PUBLISH_PREFIX = "_publish"
 LECTURE_ROOTS = ("2025 Video Lectures", "2026 Video Lectures")
+SECTION_LABELS = {
+    "2025 Video Lectures": "2025 Lectures",
+    "2026 Video Lectures": "2026 Lectures",
+}
 
 
 def folder_number(name: str) -> int:
@@ -31,7 +37,9 @@ def discover_notebooks() -> list[tuple[str, list[tuple[str, Path]]]]:
     """Return [(year_section, [(title, path), ...]), ...]."""
     sections: list[tuple[str, list[tuple[str, Path]]]] = []
     for root_name in LECTURE_ROOTS:
-        root = ROOT / root_name
+        root = ROOT / PUBLISH_PREFIX / root_name
+        if not root.is_dir():
+            root = ROOT / root_name
         if not root.is_dir():
             continue
         by_folder: dict[Path, list[Path]] = {}
@@ -42,14 +50,17 @@ def discover_notebooks() -> list[tuple[str, list[tuple[str, Path]]]]:
         entries: list[tuple[str, Path]] = []
         for folder in sorted(by_folder, key=lambda p: (folder_number(p.name), p.name)):
             notebooks = sorted(by_folder[folder], key=lambda p: p.name.lower())
+            num = folder_number(folder.name)
             title = folder_title(folder.name)
+            label = f"{num}. {title}" if num < 99_999 else title
             for nb in notebooks:
                 if len(notebooks) == 1:
-                    entries.append((title, nb))
+                    entries.append((label, nb))
                 else:
                     stem = nb.stem.replace("_", " ").replace("-", " ").title()
-                    entries.append((f"{title} — {stem}", nb))
-        sections.append((root_name, entries))
+                    entries.append((f"{label} — {stem}", nb))
+        label = SECTION_LABELS.get(root_name, root_name)
+        sections.append((label, entries))
     return sections
 
 

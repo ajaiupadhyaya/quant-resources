@@ -8,16 +8,16 @@ Jupyter notebooks from [Quant Guild Library](https://github.com/romanmichaelpaol
 
 ## Study site (Jupyter Book)
 
-This repo builds a browsable **Jupyter Book** site from all lecture notebooks.
+This repo builds a browsable **Jupyter Book** site. Source notebooks are unchanged; a **polish** step writes cleaned copies under `_publish/` (strips promo blocks, widget CSS cells, duplicate outlines) before the site is built.
 
 | Action | Command |
 |--------|---------|
 | Install deps | `uv sync --all-extras` |
-| Regenerate sidebar TOC | `uv run python scripts/generate_toc.py` |
-| Build static site | `make build` or `uv run jupyter-book build --site` |
-| Preview locally | `make serve` or `uv run jupyter-book start` |
+| Polish notebooks → `_publish/` | `make polish` |
+| Full site build | `make build` |
+| Preview locally | `make serve` |
 
-After `make build`, open `_build/site/public/index.html` in a browser (or use `make serve`).
+After `make build`, open `_build/site/public/index.html` (or use `make serve`).
 
 ### GitHub Pages
 
@@ -34,11 +34,14 @@ Uses `requirements.txt` (from `make export-reqs`) and [binder/postBuild](binder/
 ## Project layout
 
 ```
-intro.md              # Home page
-myst.yml              # Jupyter Book / MyST config
-toc.yml               # Auto-generated table of contents
+intro.md                   # Home page
+myst.yml                   # Jupyter Book / MyST config
+assets/site.css            # Site typography and layout
+toc.yml                    # Auto-generated table of contents
+scripts/polish_notebooks.py
 scripts/generate_toc.py
-pyproject.toml        # uv dependencies
+_publish/                  # Generated (gitignored); used for the site
+pyproject.toml             # uv dependencies
 ```
 
-When you add notebooks, rerun `uv run python scripts/generate_toc.py` before building.
+When you add notebooks, run `make build` (polish + TOC + site).

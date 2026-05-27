@@ -5,8 +5,8 @@ version: 1
 
 project:
   id: quant-resources
-  title: Quant Resources
-  description: Quant Guild lecture notebooks — study library
+  title: Quant Guild Study Library
+  description: Lecture notebooks from Quant Guild — organized for study and review
   authors:
     - name: Ajai Upadhyaya
   github: https://github.com/ajaiupadhyaya/quant-resources
@@ -16,6 +16,9 @@ project:
     - "**/node_modules/**"
     - _build/**
     - .venv/**
+    # Source notebooks; site builds from polished copies in _publish/
+    - "2025 Video Lectures/**"
+    - "2026 Video Lectures/**"
   jupyter:
     binder:
       repo: ajaiupadhyaya/quant-resources
@@ -29,13 +32,17 @@ extends:
 
 site:
   template: book-theme
-  title: Quant Resources
+  title: Quant Guild Study Library
   options:
-    logo_text: Quant Resources
-    # Project Pages: https://ajaiupadhyaya.github.io/quant-resources/
+    logo_text: Quant Guild Study Library
+    style: assets/site.css
+    folders: true
+    outline_maxdepth: 3
     base_url: /quant-resources
   nav:
     - title: GitHub
       url: https://github.com/ajaiupadhyaya/quant-resources
     - title: Quant Guild
       url: https://quantguild.com
+    - title: Official library
+      url: https://github.com/romanmichaelpaolucci/Quant-Guild-Library

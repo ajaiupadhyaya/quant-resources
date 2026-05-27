@@ -1,35 +1,39 @@
 ---
-title: Quant Resources
+title: Quant Guild Study Library
 short_title: Home
 ---
 
-# Quant Resources
+# Quant Guild Study Library
 
-Interactive study library of **Quant Guild** lecture notebooks ([official library](https://github.com/romanmichaelpaolucci/Quant-Guild-Library), [Quant Guild](https://quantguild.com)).
+Structured notes and code from [Quant Guild](https://quantguild.com) video lectures—organized for reading and review, not social promotion.
 
-Use the sidebar to browse **2025** and **2026** video lecture topics. Each page is a notebook with explanations, math, and (where saved) plot outputs.
+```{note}
+**Attribution.** Notebooks are © Quant Guild / Roman Paolucci. This site is an unofficial study mirror. For videos and the full asset library, see the [official Quant Guild Library](https://github.com/romanmichaelpaolucci/Quant-Guild-Library).
+```
 
-## How to use this site
+## Browse
 
-- **Read here** — Browse rendered notebooks in your browser (no setup).
-- **Run locally** — Clone the repo, then:
+Choose a year in the sidebar, then a lecture. Each page is one notebook: theory, derivations, and figures (outputs are shown; code is available below each section).
 
-  ```bash
-  uv sync
-  uv run jupyter lab
-  ```
+| Year | Focus |
+|------|--------|
+| **2025 Lectures** | Foundations—options, stochastic calculus, simulation, ML |
+| **2026 Lectures** | Processes, risk-neutral pricing, portfolio methods |
 
-- **Run in the cloud** — Use the **Open in Binder** button (top right) to launch a free Jupyter session. First launch can take several minutes.
+## Run notebooks
 
-## Attribution
-
-Notebooks are © **Quant Guild / Roman Paolucci**. This repository is an unofficial personal study mirror (notebooks only).
-
-## Maintainer
-
-Site built with [Jupyter Book](https://jupyterbook.org) (MyST). Table of contents is regenerated with:
+**Locally** (recommended for long runs):
 
 ```bash
-uv run python scripts/generate_toc.py
-uv run jupyter-book build --site
+uv sync --all-extras
+uv run jupyter lab
+```
+
+**In the browser** — use **Open in Binder** on any page (first launch may take several minutes).
+
+## Site maintenance
+
+```bash
+make polish   # rebuild _publish/ from source notebooks
+make build    # polish + TOC + static site
 ```

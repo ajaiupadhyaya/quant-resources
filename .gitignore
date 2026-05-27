@@ -4,6 +4,7 @@
 __pycache__/
 *.pyc
 _build/
+_publish/
 .myst/
 node_modules/
 # requirements.txt is committed for Binder; regenerate with: make export-reqs
