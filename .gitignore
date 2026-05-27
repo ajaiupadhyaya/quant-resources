@@ -6,6 +6,7 @@ __pycache__/
 _build/
 _publish/
 .myst/
+.playwright-mcp/
 node_modules/
 # requirements.txt is committed for Binder; regenerate with: make export-reqs
 
