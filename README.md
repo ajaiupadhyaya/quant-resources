@@ -17,7 +17,7 @@ This repo builds a browsable **Jupyter Book** site. Source notebooks are unchang
 | Full site build | `make build` |
 | Preview locally | `make serve` |
 
-After `make build`, open `_build/site/public/index.html` (or use `make serve`).
+After `make build`, open `_build/html/index.html` (or use `make serve`).
 
 ### GitHub Pages
 

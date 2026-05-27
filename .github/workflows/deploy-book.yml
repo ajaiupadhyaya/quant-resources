@@ -34,12 +34,12 @@ jobs:
         run: uv run python scripts/generate_toc.py
 
       - name: Build site
-        run: uv run jupyter-book build --site --ci
+        run: uv run jupyter-book build --site --html --ci
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/site/public
+          path: _build/html
 
   deploy:
     needs: build
