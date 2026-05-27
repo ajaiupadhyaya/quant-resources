@@ -38,6 +38,9 @@ jobs:
           BASE_URL: /quant-resources
         run: uv run jupyter-book build --site --html --ci
 
+      - name: Post-process HTML for GitHub Pages
+        run: uv run python scripts/postprocess_html.py
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

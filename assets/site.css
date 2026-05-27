@@ -1,6 +1,8 @@
 /* Quant Resources — publication theme overrides for Jupyter Book (book-theme) */
 
 :root {
+  /* MyST uses this to detect loaded stylesheets */
+  --has-styling: 1;
   --qg-accent: #1e3a5f;
   --qg-accent-light: #2d5a87;
   --qg-muted: #5c6570;
@@ -91,4 +93,9 @@ footer,
 /* Home page */
 #homepage .article-content h1 {
   border-bottom: none;
+}
+
+/* MyST fallback dialog — hide when styles loaded */
+dialog#myst-no-css {
+  display: none !important;
 }

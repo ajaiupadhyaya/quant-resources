@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - generic "skip to content options":
+    - link "Skip to article frontmatter" [ref=e2] [cursor=pointer]:
+      - /url: "#skip-to-frontmatter"
+    - link "Skip to article content" [ref=e3] [cursor=pointer]:
+      - /url: "#skip-to-article"
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - button "Open Menu" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+        - generic [ref=e11]: Open Menu
+      - link "Quant Guild Study Library" [ref=e12] [cursor=pointer]:
+        - /url: /quant-resources/
+        - generic [ref=e13]: Quant Guild Study Library
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - link "GitHub" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/ajaiupadhyaya/quant-resources
+        - link "Quant Guild" [ref=e19] [cursor=pointer]:
+          - /url: https://quantguild.com
+        - link "Official library" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/romanmichaelpaolucci/Quant-Guild-Library
+      - button "Search" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e25]: Search
+        - generic [ref=e26]:
+          - generic [ref=e27]: ⌘
+          - generic [ref=e28]: K
+      - button "Toggle theme between light and dark mode" [ref=e29] [cursor=pointer]:
+        - img [ref=e30]
+  - main [ref=e32]:
+    - article [ref=e33]:
+      - generic "article frontmatter" [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - 'link "Content License: Creative Commons Attribution 4.0 International (CC-BY-4.0)" [ref=e37] [cursor=pointer]':
+              - /url: https://creativecommons.org/licenses/by/4.0/
+              - img [ref=e38]
+              - img [ref=e40]
+            - 'link "GitHub Repository: ajaiupadhyaya/quant-resources" [ref=e42] [cursor=pointer]':
+              - /url: https://github.com/ajaiupadhyaya/quant-resources
+              - img [ref=e43]
+          - link "Edit This Page" [ref=e45] [cursor=pointer]:
+            - /url: https://github.com/ajaiupadhyaya/quant-resources/edit/main/intro.md
+            - img [ref=e46]
+          - button "Downloads" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]: Downloads
+            - img [ref=e51]
+          - button "Launch in external computing interface" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+        - heading "Quant Guild Study Library" [level=1] [ref=e56]
+        - button "Author Details" [ref=e60] [cursor=pointer]: Ajai Upadhyaya
+      - navigation "Document Outline" [ref=e62]:
+        - generic [ref=e63]:
+          - text: Contents
+          - button "Open Contents" [expanded] [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "Browse" [ref=e70] [cursor=pointer]:
+              - /url: "#browse"
+          - listitem [ref=e71]:
+            - link "Run notebooks" [ref=e72] [cursor=pointer]:
+              - /url: "#run-notebooks"
+          - listitem [ref=e73]:
+            - link "Site maintenance" [ref=e74] [cursor=pointer]:
+              - /url: "#site-maintenance"
+      - paragraph [ref=e75]:
+        - text: Structured notes and code from
+        - link "Quant Guild" [ref=e76] [cursor=pointer]:
+          - /url: https://quantguild.com
+          - text: Quant Guild
+          - img [ref=e77]
+        - text: video lectures—organized for reading and review, not social promotion.
+      - complementary [ref=e79]:
+        - generic [ref=e80]:
+          - img [ref=e81]
+          - generic [ref=e83]: Note
+        - paragraph [ref=e85]:
+          - strong [ref=e86]: Attribution.
+          - text: Notebooks are © Quant Guild / Roman Paolucci. This site is an unofficial study mirror. For videos and the full asset library, see the
+          - link "official Quant Guild Library" [ref=e87] [cursor=pointer]:
+            - /url: https://github.com/romanmichaelpaolucci/Quant-Guild-Library
+            - text: official Quant Guild Library
+            - img [ref=e88]
+          - text: .
+      - heading "Browse Link to this Section" [level=2] [ref=e90]:
+        - text: Browse
+        - link "Link to this Section":
+          - /url: "#browse"
+          - text: ¶
+      - paragraph [ref=e91]: "Choose a year in the sidebar, then a lecture. Each page is one notebook: theory, derivations, and figures (outputs are shown; code is available below each section)."
+      - generic "table content" [ref=e92]:
+        - table [ref=e93]:
+          - rowgroup [ref=e94]:
+            - row "Year Focus" [ref=e95]:
+              - columnheader "Year" [ref=e96]
+              - columnheader "Focus" [ref=e97]
+            - row "2025 Lectures Foundations—options, stochastic calculus, simulation, ML" [ref=e98]:
+              - cell "2025 Lectures" [ref=e99]:
+                - strong [ref=e100]: 2025 Lectures
+              - cell "Foundations—options, stochastic calculus, simulation, ML" [ref=e101]
+            - row "2026 Lectures Processes, risk-neutral pricing, portfolio methods" [ref=e102]:
+              - cell "2026 Lectures" [ref=e103]:
+                - strong [ref=e104]: 2026 Lectures
+              - cell "Processes, risk-neutral pricing, portfolio methods" [ref=e105]
+      - heading "Run notebooks Link to this Section" [level=2] [ref=e106]:
+        - text: Run notebooks
+        - link "Link to this Section":
+          - /url: "#run-notebooks"
+          - text: ¶
+      - paragraph [ref=e107]:
+        - strong [ref=e108]: Locally
+        - text: "(recommended for long runs):"
+      - generic [ref=e109]:
+        - generic "code block content" [ref=e110]:
+          - code [ref=e112]:
+            - generic [ref=e113]: uv sync --all-extras
+            - text: uv run jupyter lab
+        - button "Copy code to clipboard" [ref=e114] [cursor=pointer]:
+          - img [ref=e115]
+      - paragraph [ref=e117]:
+        - strong [ref=e118]: In the browser
+        - text: — use
+        - strong [ref=e119]: Open in Binder
+        - text: on any page (first launch may take several minutes).
+      - heading "Site maintenance Link to this Section" [level=2] [ref=e120]:
+        - text: Site maintenance
+        - link "Link to this Section":
+          - /url: "#site-maintenance"
+          - text: ¶
+      - generic [ref=e121]:
+        - generic "code block content" [ref=e122]:
+          - code [ref=e124]:
+            - generic [ref=e125]: "make polish # rebuild _publish/ from source notebooks"
+            - text: "make build # polish + TOC + static site"
+        - button "Copy code to clipboard" [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+      - 'link "Next: 1. Inverse Transform Method for Generating Random Variables" [ref=e130] [cursor=pointer]':
+        - /url: /quant-resources/publish/2025-video-lectures/inverse-transform-method-for-generating-random-var/inverse-transform-method
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: 2025 Lectures
+            - text: 1. Inverse Transform Method for Generating Random Variables
+          - img [ref=e134]

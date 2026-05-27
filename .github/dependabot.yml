@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: weekly
+    ignore:
+      # alpaca-trade-api pins urllib3<2
+      - dependency-name: urllib3

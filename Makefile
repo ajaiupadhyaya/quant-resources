@@ -8,6 +8,7 @@ toc: polish
 
 build: toc
 	BASE_URL=/quant-resources uv run jupyter-book build --site --html
+	uv run python scripts/postprocess_html.py
 
 serve: toc
 	uv run jupyter-book start
